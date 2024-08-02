@@ -1,0 +1,22 @@
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.border{
+    border-color: black;
+}
+
+.box {
+    border: 1px solid black;
+    background-color: pink;
+    text-align: center;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+}
