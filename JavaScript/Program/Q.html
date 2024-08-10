@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>setAttribute Example</title>
+</head>
+<body>
+
+<button id="myButton">Click me</button>
+
+<script src="./Q.js">
+
+// Get the button element by its ID
+const button = document.getElementById('myButton');
+
+// Set the 'class' attribute of the button to 'btn btn-primary'
+button.setAttribute('class', 'btn btn-primary');
+
+// Set the 'disabled' attribute of the button to 'true'
+button.setAttribute('disabled', true);
+
+// Set the 'title' attribute of the button to 'Click this button'
+button.setAttribute('title', 'Click this button');
+
+// You can also set custom attributes
+button.setAttribute('data-custom', 'Custom attribute value');
+
+// Verify the changes by logging the button's HTML
+console.log(button.outerHTML);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clockBody{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url("./Clock_clipart_nohands.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.second{
+    height: 200px;
+    width: 2px;
+    background-color: red;
+    position: absolute;
+    left: 249px;
+    top: 50px;
+    transform-origin: bottom;
+
+}
+
+.minute{
+    height: 150px;
+    width: 5px;
+    background-color: blue;
+    position: absolute;
+    left: 247px;
+    top: 100px;
+    transform-origin: bottom;
+}
+
+.hour{
+    height: 100px;
+    width: 7px;
+    background-color: black;
+    position: absolute;
+    left: 246px;
+    top: 150px;
+    transform-origin: bottom;
+}
