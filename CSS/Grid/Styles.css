@@ -1,0 +1,26 @@
+.container{
+    height: 300px;
+    width: 600px;
+    background-color: black;
+    margin: auto;
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px 10px;
+
+}
+
+.item{
+    /* width: 100px;
+    height: 100px; */
+    background-color: greenyellow;
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    border: 2px solid white;
+}
+
+h1{
+    text-align: center;
+}

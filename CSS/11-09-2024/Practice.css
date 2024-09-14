@@ -1,0 +1,22 @@
+.card{
+    height: 250px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px black;
+    
+}
+
+div img {
+    height: 130px;
+    width: 200px;
+}
+
+h1, p {
+    padding: 0 2px 0 2px;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 16px green;
+}

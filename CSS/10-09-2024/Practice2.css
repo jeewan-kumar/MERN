@@ -1,0 +1,43 @@
+/* Questions First */
+#box{
+    height: 150px;
+    width: 300px;
+    border: 5px dotted black;
+    margin : 20px 1em 40px 2em
+    padding: 1rem;
+} 
+
+/* Questions Second */
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Questions Third */
+
+li {
+    display: inline;
+}
+
+/* Transition */
+
+#tra {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: red;
+    transition: margin-to 1s ease-in-out 0.25;
+    transition-delay: 2s;
+    transform: ;
+}
+
+#tra:hover {
+    background-color: black;
+    margin-top: 400px;
+}
