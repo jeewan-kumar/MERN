@@ -1,0 +1,68 @@
+.card{
+   width: 300px;
+   border: 2px solid black;   
+   padding: 10px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+   
+}
+img{    
+    width: 100%;
+    border-radius: 10px;
+        
+}
+
+button{
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 75%;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+   
+}
+
+.price-original {
+    text-decoration: line-through;
+    color: gray;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+.price-discounted {
+    font-weight: bold;
+    color: green;
+    padding-right: 15px;
+}
+
+.btn {
+    height: 30px;
+    padding: 0 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+
+.btn:hover {
+    background-color: darkgray;
+}
